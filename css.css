@@ -147,7 +147,7 @@
 
 
 body.cs {
-	background: url(../dz/Cs2dust2.jpg);
+	background: url(Cs2dust2.jpg);
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -156,7 +156,7 @@ body.cs {
 }
 
 body.dota {
-	background: url(../dz/d2.jpg);
+	background: url(d2.jpg);
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -164,7 +164,7 @@ body.dota {
 }
 
 body.lo {
-	background: url(../dz/LOLL.jpg);
+	background: url(LOLL.jpg);
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -173,7 +173,7 @@ body.lo {
 }
 
 body.glav {
-	background: url(../dz/tss.jpg);
+	background: url(tss.jpg);
 	height: 100vh;
 	background-repeat: no-repeat;
 	background-size: cover;
