@@ -1,0 +1,210 @@
+.main-text {
+
+	color: black;
+	font-weight: normal;
+	text-align: center;
+	cursor: no-drop;
+	word-spacing: 20px;
+	letter-spacing: 5px;
+
+}
+
+#shpk {
+
+	color: red; 
+	text-align: center;
+	font-size:30px; 
+	font-style: normal;
+	font-weight: bold;
+	font-family: ;
+	text-transform: uppercase;
+	word-spacing: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	/* cursor: copy; */
+
+}
+
+
+.knopka1 {
+
+	color: greenyellow;
+	text-align: center;
+
+}
+
+
+.main-text2 {
+
+	color: orange;
+	font-weight: normal;
+	text-align: left;
+	cursor: default;
+	word-spacing: normal;
+	letter-spacing: normal;
+
+}
+
+
+.navbar {
+	width: 100%;
+	height: 70px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+}
+
+.navbar .contaner {
+	height: inherit;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-menu {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.navbar-menu li {
+	display: inline-block;
+}
+
+.navbar-menu li a {
+	display: inline-block;
+	color: red;
+	text-decoration: none;
+	opacity: 0.6;
+	padding: 10px;
+	transition: all .07s ease-in-out ;
+}
+
+.navbar-menu li a:hover {
+	opacity: 1;
+}
+
+.navbar-wrap {
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.dobavitmoment {
+	margin-left: 30px;
+	padding: 10px 30px;
+	background-color: coral ;
+	border-radius: 100px;
+	color: #fff;
+	text-decoration: none;
+	transition: all .1s ease-in-out;
+	box-shadow: 0 4px 6px rgba(255, 127, 80, .2);
+}
+
+.dobavitmoment:hover {
+	transform: scale(1.04);
+	color: #fff;
+	box-shadow: 0 9px 9px rgba(255, 127, 80, .5);
+}
+
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 26px;
+	text-decoration: none;
+	color: #000;
+}
+
+.navbar-brand:hover {
+	color: coral;
+	transition: all .07s ease-in-out ;
+}
+
+
+/* .cs {
+	background: url(../dz/Cs2dust2.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.dota {
+	background: url(../dz/dota22.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.lo {
+	background: url(../dz/LOLL.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+} */
+
+
+
+
+body.cs {
+	background: url(../dz/Cs2dust2.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+body.dota {
+	background: url(../dz/d2.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+body.lo {
+	background: url(../dz/LOLL.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+body.glav {
+	background: url(../dz/tss.jpg);
+	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+
+.cs2info{
+	color: black;
+	font-weight: normal;
+	/* text-align: center; */
+	/* cursor: no-drop; */
+	word-spacing: normal;
+	letter-spacing: 3px;
+}
+
+.dota2info{
+	color: black;
+	font-weight: normal;
+	/* text-align: center; */
+	/* cursor: no-drop; */
+	word-spacing: normal;
+	letter-spacing: 3px;
+}
+
+.lolinfo{
+	color: black;
+	font-weight: normal;
+	/* text-align: center; */
+	/* cursor: no-drop; */
+	word-spacing: normal;
+	letter-spacing: 3px;
+}
